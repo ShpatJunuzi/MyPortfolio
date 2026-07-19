@@ -3,6 +3,7 @@
     "@tailwindcss/postcss": "^4.3.2",
     "@tailwindcss/vite": "^4.3.2",
     "emailjs-com": "^3.2.0",
+    "lucide-react": "^1.25.0",
     "tailwindcss": "^4.3.2"
   }
 }
