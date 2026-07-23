@@ -1,3 +1,5 @@
+import { Button } from "@/components/Button";
+
 export const Hero = () => {
   return ( 
   <section className="relative min-h-screen flex items-center overflow-hidden">
@@ -45,10 +47,19 @@ export const Hero = () => {
                 precision.
               </span>
             </h1>
-            <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-800">
+            <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
               Hi, I'm Shpat - a software engineer specializing in React, Next.js, and TypeScript. I build scapable, performant web applications that users love.
             </p>
           </div>
+        {/* CTA's */}
+        <div>
+          <Button size="lg">
+            Contact Me <ArrowRight className="w-5 h-5" />
+          </Button>
+          <button>
+            
+          </button>
+        </div>
         </div>
         {/* Right Column - Profile Image */}
       </div>
